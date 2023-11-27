@@ -2,7 +2,7 @@
 // © EFRAN1812
 
 //@version=5
-indicator("VWAP % D")
+indicator(title="VWAP Percent Distance", shorttitle="VWAP %D")
 vwap = ta.vwap
 price_vwap_dist = close - vwap
 relative_vwap_dist = (price_vwap_dist / vwap) * 100
